@@ -1,0 +1,112 @@
+Implemented a automatic faq building and immediate answer catching
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Rafael Hasanov <youngjulesverne@Rafaels-MacBook-Pro.local>
+#
+# interactive rebase in progress; onto 13a713c
+# Last command done (1 command done):
+#    pick 14459f6 Implemented a automatic faq building and immediate answer catching
+# No commands remaining.
+# You are currently rebasing branch 'main' on '13a713c'.
+#
+# Changes to be committed:
+#	new file:   .DS_Store
+#	new file:   1_lab1.ipynb
+#	new file:   2_lab2.ipynb
+#	new file:   3_lab3.ipynb
+#	new file:   4_lab4.ipynb
+#	modified:   README.md
+#	new file:   __pycache__/app.cpython-312.pyc
+#	new file:   app.py
+#	new file:   community_contributions/1_lab1_Mudassar.ipynb
+#	new file:   community_contributions/1_lab1_Thanh.ipynb
+#	new file:   community_contributions/1_lab1_gemini.ipynb
+#	new file:   community_contributions/1_lab1_groq_llama.ipynb
+#	new file:   community_contributions/1_lab1_open_router.ipynb
+#	new file:   community_contributions/1_lab2_Kaushik_Parallelization.ipynb
+#	new file:   community_contributions/1_lab2_Routing_Workflow.ipynb
+#	new file:   community_contributions/2_lab2_ReAct_Pattern.ipynb
+#	new file:   community_contributions/2_lab2_async.ipynb
+#	new file:   community_contributions/2_lab2_exercise.ipynb
+#	new file:   community_contributions/2_lab2_exercise_BrettSanders_ChainOfThought.ipynb
+#	new file:   community_contributions/2_lab2_reflection_pattern.ipynb
+#	new file:   community_contributions/2_lab2_six-thinking-hats-simulator.ipynb
+#	new file:   community_contributions/3_lab3_groq_llama_generator_gemini_evaluator.ipynb
+#	new file:   community_contributions/4_lab4_slack.ipynb
+#	new file:   community_contributions/Business_Idea.ipynb
+#	new file:   "community_contributions/Multi-Model-Resume\342\200\223JD-Match-Analyzer/.gitignore"
+#	new file:   "community_contributions/Multi-Model-Resume\342\200\223JD-Match-Analyzer/AnalyzeResume.png"
+#	new file:   "community_contributions/Multi-Model-Resume\342\200\223JD-Match-Analyzer/README.md"
+#	new file:   "community_contributions/Multi-Model-Resume\342\200\223JD-Match-Analyzer/multi_file_ingestion.py"
+#	new file:   "community_contributions/Multi-Model-Resume\342\200\223JD-Match-Analyzer/resume_agent.py"
+#	new file:   community_contributions/app_rate_limiter_mailgun_integration.py
+#	new file:   community_contributions/claude_based_chatbot_tc/.gitignore
+#	new file:   community_contributions/claude_based_chatbot_tc/README.md
+#	new file:   community_contributions/claude_based_chatbot_tc/app.py
+#	new file:   community_contributions/claude_based_chatbot_tc/docs/Multi-modal-tailored-faq.ipynb
+#	new file:   community_contributions/claude_based_chatbot_tc/modules/__init__.py
+#	new file:   community_contributions/claude_based_chatbot_tc/modules/chat.py
+#	new file:   community_contributions/claude_based_chatbot_tc/modules/config.py
+#	new file:   community_contributions/claude_based_chatbot_tc/modules/data_loader.py
+#	new file:   community_contributions/claude_based_chatbot_tc/modules/notification.py
+#	new file:   community_contributions/claude_based_chatbot_tc/modules/tools.py
+#	new file:   community_contributions/claude_based_chatbot_tc/requirements.txt
+#	new file:   community_contributions/community.ipynb
+#	new file:   community_contributions/ecrg_3_lab3.ipynb
+#	new file:   community_contributions/ecrg_app.py
+#	new file:   community_contributions/gemini_based_chatbot/.env.example
+#	new file:   community_contributions/gemini_based_chatbot/.gitignore
+#	new file:   community_contributions/gemini_based_chatbot/Profile.pdf
+#	new file:   community_contributions/gemini_based_chatbot/README.md
+#	new file:   community_contributions/gemini_based_chatbot/app.py
+#	new file:   community_contributions/gemini_based_chatbot/gemini_chatbot_of_me.ipynb
+#	new file:   community_contributions/gemini_based_chatbot/requirements.txt
+#	new file:   community_contributions/gemini_based_chatbot/summary.txt
+#	new file:   community_contributions/lab2_protein_TC.ipynb
+#	new file:   community_contributions/lab2_updates_cross_ref_models.ipynb
+#	new file:   community_contributions/llm-evaluator.ipynb
+#	new file:   community_contributions/llm-text-optimizer.ipynb
+#	new file:   community_contributions/llm_legal_advisor.ipynb
+#	new file:   community_contributions/llm_requirements_generator.ipynb
+#	new file:   community_contributions/my_1_lab1.ipynb
+#	new file:   community_contributions/ollama_llama3.2_1_lab1.ipynb
+#	new file:   community_contributions/openai_chatbot_k/README.md
+#	new file:   community_contributions/openai_chatbot_k/app.py
+#	new file:   community_contributions/openai_chatbot_k/chatbot.py
+#	new file:   community_contributions/openai_chatbot_k/environment.py
+#	new file:   community_contributions/openai_chatbot_k/exception.py
+#	new file:   community_contributions/openai_chatbot_k/me/software-developer.pdf
+#	new file:   community_contributions/openai_chatbot_k/me/summary.txt
+#	new file:   community_contributions/openai_chatbot_k/pushover.py
+#	new file:   community_contributions/openai_chatbot_k/requirements.txt
+#	new file:   community_contributions/rodrigo/1.2_lab1_OPENROUTER_OPENAI.ipynb
+#	new file:   community_contributions/rodrigo/1_lab1_OPENROUTER.ipynb
+#	new file:   community_contributions/rodrigo/2_lab2_With_OpenRouter.ipynb
+#	new file:   community_contributions/rodrigo/3_lab3.ipynb
+#	new file:   community_contributions/rodrigo/__init__.py
+#	new file:   community_contributions/rodrigo/zroddeUtils/__init__.py
+#	new file:   community_contributions/rodrigo/zroddeUtils/llmModels.py
+#	new file:   community_contributions/rodrigo/zroddeUtils/openRouterUtils.py
+#	new file:   community_contributions/schofield/1_lab2_consulting_side_hustle_evaluator.ipynb
+#	new file:   community_contributions/security_design_review_agent.ipynb
+#	new file:   community_contributions/sharad_extended_workflow/images/workflow.png
+#	new file:   community_contributions/sharad_extended_workflow/main.py
+#	new file:   community_contributions/sharad_extended_workflow/readme.md
+#	new file:   community_contributions/travel_planner_multicall_and_sythesizer.ipynb
+#	new file:   community_contributions/weather-tool/README.md
+#	new file:   community_contributions/weather-tool/app.py
+#	new file:   community_contributions/weather-tool/requirements.txt
+#	new file:   me/.DS_Store
+#	new file:   me/linkedin.pdf
+#	new file:   me/summary.txt
+#	new file:   qa.db
+#	new file:   requirements.txt
+#	new file:   test_qa.py
+#
+# Untracked files:
+#	qa 2.db
+#	test_qa 2.py
+# Resolve merge conflict in README.md
+
