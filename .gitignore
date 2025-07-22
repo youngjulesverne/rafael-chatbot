@@ -1,0 +1,7 @@
+__pycache__/
+.DS_Store
+requirements.txt
+qa 2.db
+test_qa 2.py
+*.ipynb
+community_contributions/
